@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "org.apache.spark.shuffle.sort";
+option java_outer_classname = "OpsShuffleDataProto";
+option objc_class_prefix = "OPS";
+
+package opsshuffledata;
+
+service OpsShuffleData {
+    rpc transfer (stream Page) returns (stream Ack) {}
+}
+
+message Page {
+    bytes content = 1;
+    int32 pageNum = 2;
+    string path = 3;
+    // repeated int64 offsets = 3;
+    // repeated int64 lengths = 4;
+}
+
+message Ack {
+    int32 pageNum = 1;
+}
