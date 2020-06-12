@@ -1,4 +1,6 @@
-# Apache Spark
+# OPS: Optimized Shuffle Management System for Apache Spark
+
+---
 
 Spark is a fast and general cluster computing system for Big Data. It provides
 high-level APIs in Scala, Java, Python, and R, and an optimized engine that
