@@ -1,6 +1,27 @@
 # OPS: Optimized Shuffle Management System for Apache Spark
 
+```bib
+@inproceedings{10.1145/3404397.3404430,
+    author = {Cheng, Yuchen and Wu, Chunghsuan and Liu, Yanqiang and Ren, Rui and Xu, Hong and Yang, Bin and Qi, Zhengwei},
+    title = {OPS: Optimized Shuffle Management System for Apache Spark},
+    year = {2020},
+    isbn = {9781450388160},
+    publisher = {Association for Computing Machinery},
+    address = {New York, NY, USA},
+    url = {https://doi.org/10.1145/3404397.3404430},
+    doi = {10.1145/3404397.3404430},
+    booktitle = {49th International Conference on Parallel Processing - ICPP},
+    articleno = {75},
+    numpages = {11},
+    keywords = {shuffle, distributed parallel computing, performance optimization},
+    location = {Edmonton, AB, Canada},
+    series = {ICPP '20}
+}
+```
+
 ---
+
+# Apache Spark
 
 Spark is a fast and general cluster computing system for Big Data. It provides
 high-level APIs in Scala, Java, Python, and R, and an optimized engine that
